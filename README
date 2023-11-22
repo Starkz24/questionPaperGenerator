@@ -1,6 +1,6 @@
 Backend Setup:
-MongoDB Setup:
 
+MongoDB Setup:
 Ensure that MongoDB is installed on your machine. If not, download and install it from the official MongoDB website.
 Start MongoDB by running the following command in your terminal:
 mongod
@@ -9,13 +9,12 @@ Seed Data:
 Navigate to the backend folder in your project.
 cd backend
 
-Run the seed script to insert data into MongoDB.
+Run the seed script to insert data into MongoDB:
 node seedData.js
 
 Run Backend Server:
-Start the backend server.
 npx nodemon
-The server will run on http://localhost:3001.
+The server will run on http://localhost:3001
 
 
 Frontend Setup:
@@ -24,17 +23,17 @@ Install Dependencies:
 Navigate to the frontend folder in your project.
 cd frontend
 
-Install the required dependencies.
+Install the required dependencies:
 npm install
 
 Run Frontend Server:
 npm start
 
-The frontend server will run on http://localhost:3000.
+The frontend server will run on http://localhost:3000
 
 
 Access the Application:
-Open your web browser and go to http://localhost:3000.
+Open your web browser and go to http://localhost:3000
 The frontend should be running, and you can interact with the Question Paper Generator application.
 With these steps, you have set up and run both the backend and frontend servers for your project. Adjust the MongoDB connection details in the backend if needed, and make sure the ports are not conflicting.
 
